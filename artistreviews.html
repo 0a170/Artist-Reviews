@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Artist Reviews</title>
+	
+	<link rel="icon" href="resources/icon.ico" type="image/x-icon">
+	
+	<link rel="stylesheet" type="text/css" href="pagestyle.css">
+	
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+
+	<h1 style="text-align: center;" class="text">Welcome to Artist Reviews</h1>
+	<br>
+	<br>
+	<br> 
+	
+	
+	<form action="controller/control.php" method="GET" style="text-align: center;" class="text"> 
+	
+		Artist name:
+		<input type="text" name="name" class="inputstyle"><br><br> 
+	
+		Genre:
+		<input type="text" name="genre" class="inputstyle"><br><br>
+		
+		<button type="submit" name="action" value="search" class="buttonstyle"> Submit </button>
+	
+	</form>
+	
+	<br>
+	<br>
+	<br>
+	
+	<form action="add_artist.html" method="GET" style="text-align: center;" class="text">
+	
+		<input type="submit" name="action" value="Add an artist" class="buttonstyle">
+		
+	</form>
+	
+	<br>
+	<br>
+	
+	<form action="controller/control.php" method="GET" style="text-align: center;" class="text">
+	
+		<input type="submit" name="action" value="View all artists" class="buttonstyle">
+		
+	</form>
+
+	
+</body>
+</html>
+

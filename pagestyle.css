@@ -1,0 +1,21 @@
+.inputstyle {
+	display: inline-block; 
+	border: 1px solid #D3D3D3;
+	box-sizing: border-box;
+	box-shadow:2px 2px 2px #D3D3D3; 
+	text-align: center;
+}
+
+
+.buttonstyle {
+	border: none;
+	background-color: #a9a9a9;
+	color: white;	
+}
+
+.text{
+	font-family: Roboto;
+	
+	
+	
+}
