@@ -1,19 +1,13 @@
 <?php
 
-    $serv = 'localhost';
-	$userName = 'root';
-	$passWord = 'foolish';
-	$dbName = 'artistreviews';
-	$port = 3306; 
-	
-	
-	
-	/*$dsn  = 'mysql:host=localhost;dbname=projects;port=3306';
-	$username = 'root';
-	$password = '';
-	
-	$con = new PDO($dsn, $username, $password); */
-	
+    /* This is where database connection information should be declared and assigned
+
+        $serv = 
+	$userName = 
+	$passWord = 
+	$dbName = 
+	$port =
+    */	
 	
 	$con = new mysqli($serv, $userName, $passWord, $dbName);
 	
